@@ -1,0 +1,5 @@
+fastapi[all]~=0.63.0
+requests
+uvicorn
+neo4j~=4.2.1
+pydantic~=1.8.1

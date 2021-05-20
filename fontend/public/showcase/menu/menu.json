@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "name": "Menu",
+            "meta": [
+                "menu"
+            ],
+            "children": [
+                {
+                    "name": "Account",
+                    "to": "/account",
+                    "meta": [
+                        "account"
+                    ]
+                },
+                {
+                    "name": "Contact",
+                    "to": "/contact",
+                    "meta": [
+                        "contact"
+                    ]
+                }
+            ]
+        }
+    ]
+}

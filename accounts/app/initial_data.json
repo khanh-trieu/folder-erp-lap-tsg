@@ -1,0 +1,192 @@
+[
+  {
+    "model": "core.type_company",
+    "pk": 1,
+    "fields": {
+      "title": "personal"
+    }
+  },
+  {
+    "model": "core.type_company",
+    "pk": 2,
+    "fields": {
+      "title": "enterprise"
+    }
+  },
+  {
+    "model": "core.fields",
+    "pk": 1,
+    "fields": {
+      "code": "CNTT",
+      "title": "Công Nghệ Thông Tin"
+    }
+  },
+  {
+    "model": "core.fields",
+    "pk": 2,
+    "fields": {
+      "code": "NHNN",
+      "title": "Ngân Hàng"
+    }
+  },
+  {
+    "model": "core.countrys",
+    "pk": 1,
+    "fields": {
+      "code": "VN",
+      "title": "Việt Nam"
+    }
+  },
+  {
+    "model": "core.countrys",
+    "pk": 2,
+    "fields": {
+      "code": "EN",
+      "title": "Anh"
+    }
+  },
+  {
+    "model": "core.employees",
+    "pk": 1,
+    "fields": {
+      "code": "f1t10",
+      "title": "Từ 1 đến 10 nhân viên"
+    }
+  },
+  {
+    "model": "core.employees",
+    "pk": 2,
+    "fields": {
+      "code": "f10t50",
+      "title": "Từ 10 đến 50 nhân viên"
+    }
+  },
+  {
+    "model": "core.employees",
+    "pk": 3,
+    "fields": {
+      "code": "f50t100",
+      "title": "Từ 50 đến 100 nhân viên"
+    }
+  },
+  {
+    "model": "core.employees",
+    "pk": 4,
+    "fields": {
+      "code": "f100t",
+      "title": "Trên 100 nhân viên"
+    }
+  },
+  {
+    "model": "core.provinces",
+    "pk": 1,
+    "fields": {
+      "code": "01",
+      "title": "TP Hà Nội"
+    }
+  },
+  {
+    "model": "core.provinces",
+    "pk": 2,
+    "fields": {
+      "code": "02",
+      "title": "Tỉnh Hà Giang"
+    }
+  },
+  {
+    "model": "core.provinces",
+    "pk": 3,
+    "fields": {
+      "code": "03",
+      "title": "Tỉnh Cao Bằng"
+    }
+  },
+  {
+    "model": "core.level_accounts",
+    "pk": 1,
+    "fields": {
+      "code": "CA_Level1",
+      "title": "Account lớn có  thông tin niên yết trên sàn chứng khoán HOSE, HNX"
+    }
+  },
+  {
+    "model": "core.level_accounts",
+    "pk": 2,
+    "fields": {
+      "code": "CA_level2",
+      "title": "Account niêm yết chứng khoán trên thị trường không chính thức UpCom, OTC, VNR500 (Top DN)"
+    }
+  },
+  {
+    "model": "core.level_accounts",
+    "pk": 3,
+    "fields": {
+      "code": "CA_Level3",
+      "title": "Các công ty TNHH, DN tư nhân"
+    }
+  },
+  {
+    "model": "core.capital_investments",
+    "pk": 1,
+    "fields": {
+      "code": "VN",
+      "title": "Việt Nam"
+    }
+  },
+  {
+    "model": "core.capital_investments",
+    "pk": 2,
+    "fields": {
+      "code": "FDI",
+      "title": "Nước ngoài"
+    }
+  },
+  {
+    "model": "core.potentials",
+    "pk": 1,
+    "fields": {
+      "code": "ID.Department",
+      "title": "Phòng CNTT có các bộ phận riêng như system, network, cloud và số lượng nhân viên > 2 ở mỗi bộ phận"
+    }
+  },
+  {
+    "model": "core.potentials",
+    "pk": 2,
+    "fields": {
+      "code": "IT.D2",
+      "title": "Phòng CNTT có các bộ phận riêng như system, network, cloud và số lượng nhân viên > 1 ở mỗi bộ phận"
+    }
+  },
+  {
+    "model": "core.potentials",
+    "pk": 3,
+    "fields": {
+      "code": "IT.1",
+      "title": "Có nhân việc IT, số lượng user < 150"
+    }
+  },
+  {
+    "model": "core.potentials",
+    "pk":4,
+    "fields": {
+      "code": "IT.2",
+      "title": "Có nhân viên IT, số lượng user > 150"
+    }
+  },
+  {
+    "model": "core.potentials",
+    "pk":5,
+    "fields": {
+      "code": "NoIT.1",
+      "title": "Không có IT thuê dịch vụ"
+    }
+  },
+  {
+    "model": "core.potentials",
+    "pk":6,
+    "fields": {
+      "code": "Re1",
+      "title": "Đại lí có ít khách hàng"
+    }
+  }
+]

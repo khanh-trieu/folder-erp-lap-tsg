@@ -1,0 +1,67 @@
+{
+  "name": "erp-frontend2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^2.14.1",
+    "@azure/msal-react": "^1.0.0-beta.2",
+    "@babel/cli": "^7.2.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "formik": "^2.2.6",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^4.14.1",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.1.0",
+    "primereact": "^6.2.1",
+    "prismjs": "^1.15.0",
+    "prop-types": "^15.6.2",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-block-ui": "^1.3.3",
+    "react-dom": "^17.0.1",
+    "react-final-form": "^6.5.3",
+    "react-hook-form": "^6.15.5",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "regenerator-runtime": "^0.13.5",
+    "styled-components": "^5.2.3",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
